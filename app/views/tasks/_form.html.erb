@@ -1,4 +1,5 @@
-<%= form_for(message) do |f| %>
+<%= form_for(@task) do |f| %>
+
   <%= f.label :content, 'メッセージ' %>
   <%= f.text_field :content %>
 
